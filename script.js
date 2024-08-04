@@ -1,8 +1,7 @@
-//This is a advertising catchword generator - a program for Codecademy JS course
+//This is an advertising catchword generator - a program for Codecademy JS course
 const intro = ["Do you want to have a", "Are you looking for a", "Need a"];
-//const subject = ["you", 'somebody','they'];
 const term = ["fantastic", "splendid", "newest"];
-const verb = [
+const sentence = [
   "Just make your steps to",
   "Do not hasitate and come to",
   "You are welcome to",
@@ -34,6 +33,6 @@ console.log(
   } car? Pick ${chosenCar.make} with a ${
     chosenCar.engine
   } engine. ${pickingFunction(
-    verb
+    sentence
   )} our World Of Cars Selling Center at ${pickingFunction(location)} !!! `
 );
